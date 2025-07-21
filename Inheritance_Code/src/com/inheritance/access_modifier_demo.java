@@ -1,0 +1,13 @@
+package com.inheritance;
+import com.Inheritance.;
+
+public class access_modifier_demo {
+
+	public static void main(String[] args) {
+		
+		Base b1 = new Base();
+		// TODO Auto-generated method stub
+
+	}
+
+}
