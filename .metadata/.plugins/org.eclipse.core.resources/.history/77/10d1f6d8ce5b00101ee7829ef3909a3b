@@ -1,0 +1,14 @@
+package com.inheritance;
+
+public class SLinheritanceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Student su1 = new Student(101, "JSCOE","Zubair",370376191995, "Adarsh Nagar, uruli Devachi , Pune", 7249247724);
+		
+		System.out.println();
+
+	}
+
+}

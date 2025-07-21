@@ -1,0 +1,22 @@
+package com.assignment_3;
+
+
+class Constructordefine{
+	
+	
+	Constructordefine(){
+		
+	}
+	
+}
+
+
+
+public class ConstructorDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

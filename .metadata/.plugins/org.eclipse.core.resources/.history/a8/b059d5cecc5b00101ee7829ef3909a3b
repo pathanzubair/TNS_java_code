@@ -1,0 +1,14 @@
+package com.inheritance;
+
+public class Student extends Citizen {
+	private 
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	}
+	
+
+}

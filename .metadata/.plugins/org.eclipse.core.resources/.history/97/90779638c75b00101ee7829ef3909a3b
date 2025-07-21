@@ -1,0 +1,48 @@
+package com.assignment_3;
+import java.util.*;
+
+
+
+
+public class ConstructorDemo {
+	private String name;
+	
+	ConstructorDemo(){
+		System.out.println("Default Constructor");
+	}
+	
+	ConstructorDemo(String name){
+		this.name = name;
+		System.out.println("Parameterized Constructor");
+		System.out.println("Name = "+name);
+	}
+	
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a name: ");
+		String name=sc.nextLine();		
+		
+		ConstructorDemo obj1 = new ConstructorDemo();
+		obj1.setName(name);
+		System.out.println(obj1.getName());
+		
+		ConstructorDemo obj2 = new ConstructorDemo("Zubair");
+		
+		
+		sc.close();
+		
+
+	}
+
+}
