@@ -1,0 +1,24 @@
+package com.inheritance;
+
+public class Citizen {
+	private String name;
+	private long aadhar;
+	private String address;
+	private long phone;
+	
+	
+	public Citizen() {
+		System.out.println("Citizen object created");
+	}
+
+
+	public Citizen(String name, long aadhar, String address, long phone) {
+		this.name = name;
+		this.aadhar = aadhar;
+		this.address = address;
+		this.phone = phone;
+	}
+	
+	
+
+}

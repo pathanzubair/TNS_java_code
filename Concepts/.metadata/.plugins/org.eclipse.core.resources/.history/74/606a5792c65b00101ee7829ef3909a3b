@@ -1,0 +1,20 @@
+package com.assignment_3;
+import java.util.*;
+
+
+
+
+public class ConstructorDemo {
+	private String name;
+	
+	ConstructorDemo(){
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
