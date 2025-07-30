@@ -1,2 +1,0 @@
-module Oop_Encapsulation {
-}
